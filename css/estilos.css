@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+center {
+	position: relative;
+	margin: 20px auto;
+	width: 400px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	background: blue;
+	color: white;
+	font-weight: bold;
+	border: 2px solid #999;
+	border-radius: 20px;
+}
+
+#calculadora {
+	position: relative;
+	margin: 20px auto;
+	width: 400px;
+	height: 600px;
+	border: 1px solid #aaa;
+	border-radius: 20px;
+	background-image: linear-gradient(#ECF3FC,#D9E4F1)
+}
+
+#operaciones {
+	position: relative;
+	margin: 20px auto;
+	width: 70%;
+	background-image: linear-gradient(#ECF3FC, white);
+	border: 1px solid #999;
+	border-radius: 3px;
+	box-shadow: 3px 3px 5px #999;
+	padding: 10%;
+	text-align: right;
+	font-size: 25px;
+	overflow: hidden;
+}
+
+#calculadora ul{
+	margin-left: 5px;
+}
+
+#calculadora ul li{
+	float: left;
+	padding: 32px;
+	width: 15px;
+	text-align: center;
+	margin: 8px;
+	background: #F4F9FC;
+	border: 1px solid #999;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px #999;
+	font-weight: bold;
+	cursor: pointer;
+	color: #1F3980;
+}
+
+#calculadora ul li:hover{
+	background-image: linear-gradient(#FFE5C9,#FBF5EE,#FFD875);
+	border: 1px solid #FFDB00;
+	color: #1F3980;
+}
+
+#calculadora ul li:active{
+	background-image: linear-gradient(#F4CB83,white, #F5BB57);
+	border: 1px solid #FFDB00;
+	box-shadow: 0px 0px 5px #FFDB00;
+	color: #1F3980;
+}
+
+#calculadora ul li#otroColor{
+	background-image: linear-gradient(#BCE4FD,#F4F9FC,#E8F6FF);
+}
+
+#calculadora ul li#otroColor:hover{
+	background-image: linear-gradient(#FFE5C9,#FBF5EE,#FFD875);
+	border: 1px solid #FFDB00;
+	color: #1F3980;
+}
+
+#calculadora ul li#otroColor:active{
+	background-image: linear-gradient(#F4CB83,white, #F5BB57);
+	border: 1px solid #FFDB00;
+	box-shadow: 0px 0px 5px #FFDB00;
+	color: #1F3980;
+}
+
+
+#borrar{
+	position: absolute;
+	bottom: 10px;
+	padding: 5px 15px;
+	width: 60px;
+	background: #F4F9FC;
+	border-radius: 5px;
+	left: 150px;
+	border: 1px solid #999;
+	text-align: center;
+	color: #1F3980;
+	cursor: pointer;
+}
+
+#borrar:hover{
+	background-image: linear-gradient(#FFE5C9,#FFD875);
+	border: 1px solid #FFDB00;
+	color: #1F3980;
+}
+
+#borrar:active{
+	background-image: linear-gradient(#F4CB83,white, #F5BB57);
+	border: 1px solid #FFDB00;
+	color: #1F3980;
+}
